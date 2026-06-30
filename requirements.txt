@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+pydantic
+google-genai
+requests
+beautifulsoup4
+python-dotenv
+pandas
+plotly
+streamlit
+httpx
+psycopg2-binary
+spacy
+sentence-transformers

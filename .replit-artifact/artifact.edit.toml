@@ -1,0 +1,18 @@
+kind = "web"
+previewPath = "/ds/"
+title = "VerifyIt DS"
+version = "1.0.0"
+id = "artifacts/verifyit-ds"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/ds/" ]
+localPort = 9000
+
+[services.development]
+run = "bash artifacts/verifyit-ds/start_frontend.sh"
+
+[services.env]
+PORT = "9000"
+BASE_PATH = "/ds/"
